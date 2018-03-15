@@ -1,4 +1,4 @@
-# Project-2-_-NYTimes-InstaNews-App.
+NYTimes-InstaNews-App._Project02
 Responsive website with a selector of NYTimes categories
 
 
