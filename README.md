@@ -1,9 +1,10 @@
 NYTimes-InstaNews-App._Project02
-Responsive website with a selector of NYTimes categories
 
+Responsive website with a selector of NYTimes categories
 
 Author
 * Laila Salama
+
 
 
 This project uses an API feed from NY Times.
