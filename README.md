@@ -12,3 +12,4 @@ The user will have at his disposal a selector that will allow him to make his ch
 
 Technologies Used:  Ajax with NYTimes Developer Tools (API) to pull the top stories from NY Times. By using Gulp  , Javascript,  SASS as a CSS extension.
 
+This project is licensed under the MIT License.
