@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="index.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NYTimes_Project-02</title>
+
+   
+    <link rel="stylesheet" href="build/css/selectric.min.css">
+    <link rel="stylesheet" href="build/css/style.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="build/js/selectric.min.js"></script>
+    <script src="build/js/index.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <base target="_blank">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/nyt-logo.svg" alt="NYTimes logo" />
+        </div>
+        <div class="selection">
+            <p>Choose a section:</p>
+            <select class="category">
+                <option value="" selected disabled>Sections...</option>
+                <option value="home">Home</option>
+                <option value="arts">Arts</option>
+                <option value="books">Books</option>
+                <option value="business">Business</option>
+                <option value="fashion">Fashion</option>
+                <option value="food">Food</option>
+                <option value="health">Health</option>
+                <option value="national">National</option>
+                <option value="science">Science</option>
+                <option value="sports">Sports</option>
+                <option value="technology">Technology</option>
+                <option value="travel">Travel</option>
+                <option value="world">World</option>
+            </select>
+        </div>
+        <div class="search-bar">
+            <form>
+                <input class="search" type="text" name="search" value placeholder="Search" />
+            </form>
+        </div>
+    </header>
+    <main>
+        <ul class="articles">
+        </ul>
+    </main>
+    <footer>
+        <p>&copy; Copyright 2018 <span class="uppercase">instanews</span></p>
+    </footer>
+
+    
+</body>
+
+</html>
