@@ -1,0 +1,156 @@
+
+header {
+    align-self: flex-start;
+    padding-top: 8 * $padding;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    flex-flow: row wrap;
+    transition: padding-top 1s;
+    width: 100%;
+    @include tablet {
+        flex-flow: nowrap;
+    }
+    @include desktop {
+        flex-flow: nowrap;
+    }
+    select {
+        margin-bottom: 2 * $margin;
+    }
+    p {
+        padding: $padding 0;
+    }
+}
+
+// header after articles are loaded
+.header-small {
+    padding: $padding;
+    @include tablet {
+        max-height: $dimension;
+    }
+    img {
+        @include tablet {
+            max-width: .6 * $dimension;
+            margin-right: 5 * $margin;
+        }
+        @include desktop {
+            justify-content: flex-start;
+        }
+    }
+}
+
+.logo,
+.selection {
+    flex-basis: 100%;
+    @include tablet {
+        display: flex;
+    }
+    @include desktop {
+        flex-basis: 10%;
+    }
+}
+
+.logo {
+    margin: $margin 0;
+    @include tablet {
+        justify-content: flex-end;
+    }
+    @include desktop {
+        padding-left: 3 * $padding;
+    }
+}
+
+.selection {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    @include tablet {
+        justify-content: flex-start;
+        flex-flow: row wrap;
+    }
+    @include desktop {
+        min-width: $dimension;
+        margin-left: $margin * 3;
+    }
+    p {
+        flex-basis: 100%;
+        @include tablet {
+            text-align: left;
+        }
+    }
+    .category {
+        flex-basis: 100%;
+    }
+}
+
+//
+// Selectric styles
+//
+.selectric {
+    width: $dimension * .8;
+    margin: auto;
+    height: $selectric-dimension;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    .label {
+        font-size: $selectic-font-size;
+        margin-right: $margin;
+    }
+    .button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: $selectric-dimension;
+        width: $selectric-dimension;
+        border-radius: $border-radius;
+        font: initial;
+        font-size: $button-font;
+        &:after {
+            display: none;
+        }
+    }
+}
+
+.selectric-items {
+    text-align: left;
+    border: 1px solid lighten($bg-color, 50);
+    border-radius: $border-radius;
+    li {
+        font-size: $selectic-font-size;
+        height: $selectric-dimension;
+        padding: $padding * .3;
+    }
+}
+
+.search-bar {
+    display: none;
+    flex-basis: 100%;
+    align-self: center;
+    justify-content: center;
+    @include tablet {
+        justify-content: flex-end;
+    }
+    input {
+        height: $selectric-dimension;
+        width: $dimension * .8;
+        margin-top: $margin * 3;
+        background-color: #333745;
+        color: $text-color;
+        outline: 0;
+        border-radius: $border-radius;
+        border: 0;
+        padding-left: $padding;
+        font-family: OpenSans;
+        &:focus {
+            background-color: #282b36;
+        }
+        // disable clearing input in Edge
+        // @source https://stackoverflow.com/questions/14007655/remove-ie10s-clear-field-x-button-on-certain-inputs 03/17/2018
+        &::-ms-clear {
+            display: none;
+        }
+    }
+}
