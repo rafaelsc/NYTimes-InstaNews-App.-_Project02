@@ -1,36 +1,32 @@
-{	
+{
 	"name": "NYTimes_Project-02",
 	"version": "1.0.0",
-
 	"description": "NYTimes-InstaNews-App._Project02. Responsive website with a selector of NYTimes categories",
-	
-"main": "index.js",
+	"main": "index.js",
 	"scripts": {
-	"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
-	"type": "git",
-	"url": "git+https://github.com/Loulou2018/NYTimes-InstaNews-App.-_Project02.git"
+		"type": "git",
+		"url": "git+https://github.com/Loulou2018/NYTimes-InstaNews-App.-_Project02.git"
 	},
-	
-    "author": "",
+	"author": "",
 	"license": "ISC",
 	"bugs": {
-	"url": "https://github.com/Loulou2018/NYTimes-InstaNews-App.-_Project02/issues"
+		"url": "https://github.com/Loulou2018/NYTimes-InstaNews-App.-_Project02/issues"
 	},
 	"homepage": "https://github.com/Loulou2018/NYTimes-InstaNews-App.-_Project02#readme",
-	
-"devDependencies": {
-	"browser-sync": "^2.23.6",
-	"gulp": "^3.9.1",
-	"gulp-autoprefixer": "^5.0.0",
-	"gulp-cssnano": "^2.1.2",
-	"gulp-prettyerror": "^1.2.1",
-	"gulp-rename": "^1.2.2",
-	"gulp-sass": "^3.1.0",
-	"gulp-uglify": "^3.0.0"
+	"devDependencies": {
+		"browser-sync": "^2.23.6",
+		"gulp": "^3.9.1",
+		"gulp-autoprefixer": "^5.0.0",
+		"gulp-cssnano": "^2.1.2",
+		"gulp-prettyerror": "^1.2.1",
+		"gulp-rename": "^1.2.2",
+		"gulp-sass": "^3.1.0",
+		"gulp-uglify": "^3.0.0"
 	},
 	"dependencies": {
-	"gulp-eslint": "^4.0.2"
+		"gulp-eslint": "^4.0.2"
 	}
-	}
+}
